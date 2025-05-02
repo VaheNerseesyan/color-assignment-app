@@ -1,4 +1,4 @@
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxABWGZwPz9DyHn697LL9Aq-CzbyUzltLqRL9_EcnuKyrQm0ebvEkrQjceX3jp22lXtBg/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwPHFDTegZaCSVClR9QfUBxd9ndtUYVsv4V_kALxZeXfADP_fqz-S9X3mIRcXfnUzBW/exec';
 
 export const getAvailableColors = async () => {
     try {
