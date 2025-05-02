@@ -14,10 +14,9 @@ export const assignColor = async (name) => {
     try {
         const response = await fetch(SCRIPT_URL, {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name }),
+            mode: 'cors' // Should we add this?
         });
         return await response.json();
     } catch (error) {
